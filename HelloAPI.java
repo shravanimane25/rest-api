@@ -12,7 +12,7 @@ public class HelloAPI {
 
         server.createContext("/hello", exchange -> {
 
-            String response = "Hello! REST API is working";
+            String response = "Hello! REST API is not working";
 
             exchange.sendResponseHeaders(200,
                 response.getBytes().length);
